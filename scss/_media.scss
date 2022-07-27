@@ -1,0 +1,29 @@
+@media (max-width: 375px) {
+	.nav {
+		padding: 20px 15px;
+		&__list-link {
+			font-size: 1.2rem;
+		}
+	}
+}
+@media (min-width: 375px) {
+	.nav__list-link {
+		font-size: 1.4rem;
+	}
+}
+@media (min-width: 576px) {
+	.nav__list-link {
+		font-size: 2rem;
+	}
+}
+@media (min-width: 768px) {
+    .nav__list-link {
+        font-size: 2.5rem;
+    }
+}
+@media (min-width: 992px) {
+}
+@media (min-width: 1200px) {
+}
+@media (min-width: 1440px) {
+}
