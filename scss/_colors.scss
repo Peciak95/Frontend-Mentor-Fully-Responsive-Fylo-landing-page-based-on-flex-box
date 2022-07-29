@@ -2,6 +2,7 @@ $intro-mail-color: hsl(217, 28%, 15%);
 $main-color: hsl(218, 28%, 13%);
 $footer-bg-color: hsl(216, 53%, 9%);
 $testimonials-bg-color: hsl(219, 30%, 18%);
-$hover-gradient: linear-gradient(333deg, rgba(101, 226, 217, 1) 0%, rgba(51, 158, 204, 1) 100%);
+$gradient: linear-gradient(90deg, rgba(101, 226, 217, 1) 0%, rgba(51, 158, 204, 1) 40%, rgba(101, 226, 217, 1) 40%);
+$gradient-hover: linear-gradient(333deg, rgba(101,226,217,1) 0%, rgba(101,226,217,1) 0%);
 $error-color: hsl(0, 100%, 63%);
 $font-color: hsl(0, 0%, 100%);

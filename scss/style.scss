@@ -17,14 +17,28 @@ body {
 	font-family: 'Open Sans', sans-serif;
 	color: $font-color;
 }
-.wrapper{
+.wrapper {
 	max-width: 1440px;
 	margin: 0 auto;
 }
 .text-test {
 	color: red;
 }
-
+.btn {
+	padding: 1em 5em;
+	background-image: $gradient;
+	background-size: 280%;
+	font-size: 1.8rem;
+	transition: background-position.5s;
+	cursor: pointer;
+	border: none;
+	border-radius: 40px;
+	color: $font-color;
+	&:hover {
+		background-position: right;
+	}
+	margin-bottom: 2em;
+}
 .nav {
 	width: 100%;
 	padding: 30px;
@@ -58,6 +72,60 @@ body {
 		}
 	}
 }
-
-
+.header {
+	background-color: $intro-mail-color;
+	&__img {
+		width: 100%;
+		height: auto;
+		object-fit: cover;
+		margin-bottom: 2em;
+	}
+	&__waves {
+		position: absolute;
+		width: 100%;
+		// transform: scale(1.4);
+		bottom: 0;
+		// height: 50%;
+		z-index: -2;
+	}
+	&__title {
+		font-size: 2.2rem;
+		text-align: center;
+		margin-bottom: 0;
+	}
+	&__top {
+		padding: 2em 2em 0;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		width: 100%;
+		background-color: transparent;
+		position: relative;
+		z-index: 1;
+	}
+	&__bottom {
+		position: relative;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		background-color: $main-color;
+		padding: 4em;
+		text-align: center;
+		line-height: 1.5;
+		z-index: 0;
+	}
+	&__text {
+		width: 80%;
+		font-size: 1.8rem;
+		text-align: center;
+		margin-bottom: 2em;
+	}
+}
+.waves-desktop {
+	// transform: scale(1.2);
+	position: absolute;
+	bottom: 0;
+}
 @import '_media';
