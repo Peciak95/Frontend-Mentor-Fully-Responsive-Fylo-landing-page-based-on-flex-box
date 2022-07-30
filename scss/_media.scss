@@ -5,7 +5,7 @@
 			font-size: 1.2rem;
 		}
 	}
-	
+
 	.btn {
 		font-size: 1.5rem;
 	}
@@ -15,7 +15,7 @@
 		font-size: 1.4rem;
 	}
 	.btn {
-		font-size: 1.8rem;
+		font-size: 1.7rem;
 	}
 }
 @media (min-width: 576px) {
@@ -26,6 +26,19 @@
 @media (min-width: 768px) {
 	.nav__list-link {
 		font-size: 2.5rem;
+	}
+	.advantages {
+		&__cards {
+			flex-direction: row;
+			flex-wrap: wrap;
+		}
+		&__card {
+			width: 30%;
+			margin: 2em;
+		}
+		&__text-info {
+			padding: 2em;
+		}
 	}
 }
 @media (min-width: 992px) {
@@ -40,11 +53,11 @@
 			font-size: 2rem;
 			width: 50%;
 		}
-}
+	}
 }
 @media (min-width: 1200px) {
 	.header {
-		&__img{
+		&__img {
 			width: 100%;
 		}
 		&__title {
@@ -55,27 +68,26 @@
 			font-size: 2rem;
 			width: 50%;
 		}
-		&__top{
+		&__top {
 			width: 50%;
 			margin: 0 auto;
 			z-index: 1;
 		}
-		&__bottom{
+		&__bottom {
 			background-color: $intro-mail-color;
 			overflow: hidden;
 		}
 	}
-	.btn{
+	.btn {
 		margin-bottom: 4rem;
 	}
-	.waves-mobile{
+	.waves-mobile {
 		display: none;
 	}
-	.waves-desktop{
+	.waves-desktop {
 		display: block;
 		bottom: -40%;
 		z-index: -2;
-		
 	}
 }
 @media (min-width: 1440px) {
