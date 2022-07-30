@@ -19,9 +19,14 @@
 	}
 }
 @media (min-width: 576px) {
+	.reviews {
+		&__card {
+			max-width: 75%;
+	}
 	.nav__list-link {
 		font-size: 2rem;
 	}
+}
 }
 @media (min-width: 768px) {
 	.nav__list-link {
@@ -79,6 +84,16 @@
 			font-size: 2.3rem;
 		}
 	}
+	.reviews {
+		&__cards{
+			flex-direction: row;
+			justify-content: space-between;
+		}
+		&__card {
+			max-width: 30%;
+		
+	}
+}
 }
 @media (min-width: 1200px) {
 	.header {
@@ -121,5 +136,5 @@
 		}
 	}
 }
-@media (min-width: 1440px) {
-}
+// @media (min-width: 1440px) {
+// }
