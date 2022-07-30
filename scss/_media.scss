@@ -37,6 +37,17 @@
 			margin: 2em;
 		}
 		&__text-info {
+			padding: 2.5em;
+		}
+	}
+	.description-box {
+		flex-direction: row;
+
+		&__image-box {
+			max-width: 40%;
+			margin: auto 0;
+		}
+		&__info{
 			padding: 2em;
 		}
 	}
@@ -52,6 +63,20 @@
 		&__text {
 			font-size: 2rem;
 			width: 50%;
+		}
+	}
+	.description-box {
+		&__image-box {
+			max-width: 50%;
+		}
+		&__info{
+			max-width: 40%;
+			padding: 2em;
+			align-items: flex-start;
+		}
+		&__title{
+			max-width: 80%;
+			font-size: 2.3rem;
 		}
 	}
 }
@@ -88,6 +113,12 @@
 		display: block;
 		bottom: -40%;
 		z-index: -2;
+	}
+	.description-box {
+		&__title{
+			max-width: 60%;
+			font-size: 2.8rem;
+		}
 	}
 }
 @media (min-width: 1440px) {

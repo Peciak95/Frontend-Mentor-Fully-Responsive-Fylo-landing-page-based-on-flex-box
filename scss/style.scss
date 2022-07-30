@@ -132,6 +132,7 @@ body {
 	background-color: $main-color;
 }
 .advantages {
+	margin-bottom: 4em;
 	&__cards {
 		display: flex;
 		flex-direction: column;
@@ -160,4 +161,90 @@ body {
 		}
 	}
 }
+.description {
+	padding-bottom: 10em;
+	&-box {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		padding: 2em;
+		color: $font-color;
+		&__image-box {
+			margin-bottom: 4em;
+		}
+		&__image {
+			width: 100%;
+		}
+		&__info {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			font-size: 1.5rem;
+		}
+		&__title {
+			font-size: 2rem;
+			margin-bottom: 1em;
+		}
+		&__text {
+			margin-bottom: 1.5em;
+			line-height: 1.5;
+		}
+		&__link-box {
+			align-self: flex-start;
+			display: flex;
+			justify-content: flex-start;
+			align-items: center;
+			&:hover {
+				.description-box__link {
+					color: $font-color;
+				}
+				.description-box__link::after {
+					background-color: $font-color;
+				}
+				.description-box__arrow-icon {
+					use {
+						fill: $font-color;
+					}
+				}
+			}
+		}
+		&__link {
+			position: relative;
+			padding-bottom: 0.3em;
+			text-decoration: none;
+			color: $cyan-color;
+			margin-right: 0.5em;
+			transition: color 0.3s;
+			&::after {
+				transition: background-color 0.3s;
+				position: absolute;
+				bottom: 0;
+				left: 0;
+				right: 0;
+				content: '';
+				width: 115%;
+				height: 1px;
+				background-color: $cyan-color;
+			}
+			// &:hover .description-box__arrow-icon {
+			// 	use {
+			// 		fill: #ffff;
+			// 	}
+			// color: $font-color;
+			// &::after{
+			// 	background-color: $font-color;
+			//
+
+			// }
+		}
+		&__arrow-icon {
+			use {
+				transition: fill .3s;
+			}
+		}
+	}
+}
+
 @import '_media';
