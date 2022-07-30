@@ -346,6 +346,12 @@ body {
   transition: fill 0.3s;
 }
 
+.reviews__quotes {
+  position: absolute;
+  top: -40px;
+  left: 0;
+}
+
 .reviews__cards {
   padding: 2em;
   display: -webkit-box;
@@ -380,6 +386,10 @@ body {
           align-items: flex-start;
   padding: 2em;
   margin-bottom: 3em;
+}
+
+.reviews__card--first {
+  position: relative;
 }
 
 .reviews__card-top {
