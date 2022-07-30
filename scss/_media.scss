@@ -17,6 +17,10 @@
 	.btn {
 		font-size: 1.7rem;
 	}
+	.error{
+		text-align: left;
+		padding-left: 1em;
+	}
 }
 @media (min-width: 576px) {
 	.reviews {
@@ -26,6 +30,9 @@
 	.nav__list-link {
 		font-size: 2rem;
 	}
+}
+.sign-up{
+	max-width: 75%;
 }
 }
 @media (min-width: 768px) {
@@ -93,6 +100,9 @@
 			max-width: 30%;
 		
 	}
+}
+.sign-up{
+	max-width: 60%;
 }
 }
 @media (min-width: 1200px) {

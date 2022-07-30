@@ -346,6 +346,10 @@ body {
   transition: fill 0.3s;
 }
 
+.reviews {
+  padding-bottom: 20em;
+}
+
 .reviews__quotes {
   position: absolute;
   top: -40px;
@@ -439,6 +443,92 @@ body {
   margin-bottom: 0.5em;
 }
 
+.footer {
+  background-color: #0b1523;
+  padding: 2em;
+}
+
+.footer-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.sign-up {
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  background-color: #1c2431;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 10px;
+  padding: 2em;
+}
+
+.sign-up__top {
+  margin-bottom: 2em;
+}
+
+.sign-up__top-title {
+  margin-bottom: 1em;
+  text-align: center;
+}
+
+.sign-up__top-text {
+  line-height: 1.5;
+  text-align: center;
+}
+
+.sign-up__bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+}
+
+.sign-up__bottom-input {
+  width: 100%;
+  height: 4em;
+  border-radius: 25px;
+  padding: 1em;
+}
+
+.sign-up__bottom-btn {
+  padding: 1em 2em;
+  width: 100%;
+}
+
+.error {
+  text-align: center;
+  color: #ff4242;
+  visibility: hidden;
+  margin-bottom: 1em;
+}
+
 @media (max-width: 375px) {
   .nav {
     padding: 20px 15px;
@@ -458,6 +548,10 @@ body {
   .btn {
     font-size: 1.7rem;
   }
+  .error {
+    text-align: left;
+    padding-left: 1em;
+  }
 }
 
 @media (min-width: 576px) {
@@ -466,6 +560,9 @@ body {
   }
   .reviews .nav__list-link {
     font-size: 2rem;
+  }
+  .sign-up {
+    max-width: 75%;
   }
 }
 
@@ -539,6 +636,9 @@ body {
   }
   .reviews__card {
     max-width: 30%;
+  }
+  .sign-up {
+    max-width: 60%;
   }
 }
 
