@@ -118,6 +118,7 @@ body {
 
 .header__title {
   font-size: 2.2rem;
+  font-family: 'Raleway', sans-serif;
   text-align: center;
   margin-bottom: 0;
 }
@@ -229,6 +230,7 @@ body {
 
 .advantages__text-title {
   margin-bottom: 1em;
+  font-family: 'Raleway', sans-serif;
 }
 
 .advantages__text-info {
@@ -285,6 +287,7 @@ body {
 .description-box__title {
   font-size: 2rem;
   margin-bottom: 1em;
+  font-family: 'Raleway', sans-serif;
 }
 
 .description-box__text {
@@ -692,6 +695,7 @@ body {
 .sign-up__top-title {
   margin-bottom: 1em;
   text-align: center;
+  font-family: 'Raleway', sans-serif;
 }
 
 .sign-up__top-text {
