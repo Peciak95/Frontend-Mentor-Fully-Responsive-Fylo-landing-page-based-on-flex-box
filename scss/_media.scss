@@ -34,6 +34,9 @@
 .sign-up{
 	max-width: 75%;
 }
+.footer-contact{
+	max-width: 80%;
+}
 }
 @media (min-width: 768px) {
 	.nav__list-link {
@@ -102,7 +105,20 @@
 	}
 }
 .sign-up{
-	max-width: 60%;
+	max-width: 800px;
+}
+.footer-contact{
+	&__info{
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+	}
+	&__box{
+		max-width: 30%;
+		a{
+			padding: .5em;
+		}
+	}
 }
 }
 @media (min-width: 1200px) {
